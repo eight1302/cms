@@ -1,0 +1,77 @@
+@charset "UTF-8";
+a{color:#000000;border:0;text-decoration:none;font-size:12px;}
+a:hover{color:#b32317;}
+ul{list-style:none;margin:0;padding:0;}
+img{border:0;}
+
+/* imgfocus */
+.imgfocus{
+	position:relative;
+	width:268px;
+	height:193px;
+	background:#F1F1F1;
+	margin:40px auto 0 auto;
+}
+.decotext2{
+	width:268px;
+	height:193px;
+	padding-top:15px;
+	position:absolute;
+	top:0;
+	left:20px;
+	display:block;
+	text-align:left;z-index:20;
+}
+.decotext2 p{
+	margin-top:40px;
+	font-size:18px;
+}
+.imgfocus .imgbox{
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.decoimg_b2{
+	position:relative;
+	width:268px;
+	float:left;
+	display:none;
+}
+.decoimg_b2 img{
+	display:block;
+	width:268px;
+	height:193px;
+}
+ul.num_a2{
+	width:9px;
+	position:absolute;
+	top:30%;
+	right:20px;
+	background:url(../img/controbg.png) no-repeat right center;
+}
+ul.num_a2 li{
+	width:12px;
+	height:12px;
+	margin-bottom:24px;
+	position:relative;
+}
+ul.num_a2 .current{
+	color:#4D4D4F;
+	background-color:#4d4d4f;
+	-webkit-transform:scale(1.8);
+	transform:scale(1.8);
+}
+ul.num_a2 a{
+	width:100%;
+	height:100%;
+	line-height:100%;
+	border-radius:50%;
+	text-indent:-70px;
+	color:#808285;
+	background-color:#808285;
+	position:absolute;
+	top:0;
+	left:0;
+	-webkit-transition:-webkit-transform 0.5s ease, background-color 0.5s ease;
+	transition:transform 0.5s ease, background-color 0.5s ease;
+}

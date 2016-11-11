@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+#cast{
+	margin:0 0 10px 0;
+    border:1px solid #ccc;
+}
+#cast h2 {
+}
+#cast h2 a {
+	color:#360;
+	text-decoration:none;
+}
+#cast h2 a:hover {
+	color:#f60;
+}
+#cast table{
+    width: 80%;
+    margin: 15px auto;
+    background:#ccc;
+}
+#cast table caption{
+    font-size: 22px;
+    color:#333;
+    padding:0 0 10px 0;
+    font-weight: bold;
+}
+#cast table th,#cast table td{
+    padding: 10px;
+    background: #fff;
+    text-align:center;
+}
+
+
+
+
+
